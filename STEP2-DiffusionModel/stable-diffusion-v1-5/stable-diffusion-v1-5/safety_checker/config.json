@@ -1,0 +1,29 @@
+{
+  "_name_or_path": "/Users/tianyulin/.cache/huggingface/hub/models--stable-diffusion-v1-5--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14/safety_checker",
+  "architectures": [
+    "StableDiffusionSafetyChecker"
+  ],
+  "initializer_factor": 1.0,
+  "logit_scale_init_value": 2.6592,
+  "model_type": "clip",
+  "projection_dim": 768,
+  "text_config": {
+    "dropout": 0.0,
+    "hidden_size": 768,
+    "intermediate_size": 3072,
+    "model_type": "clip_text_model",
+    "num_attention_heads": 12
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.48.3",
+  "vision_config": {
+    "_attn_implementation_autoset": true,
+    "dropout": 0.0,
+    "hidden_size": 1024,
+    "intermediate_size": 4096,
+    "model_type": "clip_vision_model",
+    "num_attention_heads": 16,
+    "num_hidden_layers": 24,
+    "patch_size": 14
+  }
+}
