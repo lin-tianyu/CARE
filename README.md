@@ -36,8 +36,8 @@ Requirements include:
 	1.	Download the dataset: Use the AbdomenAtlas or any well-labeled abdominal CT dataset.
 	2.	Preprocess using nnUNet v2:
 
-nnUNetv2_extract_dataset /path/to/abdomenatlas 500
-nnUNetv2_plan_and_preprocess -d 500 -c 3d_fullres
+`nnUNetv2_extract_dataset /path/to/abdomenatlas 500`
+`nnUNetv2_plan_and_preprocess -d 500 -c 3d_fullres`
 
 	3.	Symlink the processed dataset:
 
