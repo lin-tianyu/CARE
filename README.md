@@ -2,8 +2,6 @@
 
 Official PyTorch implementation of **CARE**, a framework that improves sparse-view or low-dose CT reconstructions by enforcing anatomical completeness. CARE works as a modular post-processing pipeline, transforming initial reconstructions (e.g., from NeRF, TensoRF, FDK) into anatomically faithful CT volumes using latent diffusion and segmentation-driven supervision.
 
-[[Project Page](https://github.com/lin-tianyu/CARE)] [[Paper (Coming Soon)]()] [[Dataset (AbdomenAtlas)]()] 
-
 ---
 
 ## Method
